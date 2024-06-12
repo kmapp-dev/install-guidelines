@@ -108,7 +108,7 @@ via ```localhost:8001/search```
 
 The directory 'modules' contains folders for every micro-service that is part of the pdf processing pipeline, the RAG components and user interface. It contains fundamental modules for building a RAG, or other retrieval applications. 
 
-![Modules Diagram 2024-03-22](docu/kmapp-modules.png)
+![Modules Diagram 2024-03-22](kmapp-modules.png)
 
 In 'shared' helper, lib and functional services that are used across modules can be found. Here, the fundamentals of message queueing, file io, worker class, etc. are placed. Also, requirements are centrally stored in a requirements.txt file here. 
 
